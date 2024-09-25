@@ -27,3 +27,56 @@
     border-bottom: 2px solid rgb(33, 241, 189);
     padding: 8px;
 }
+
+.djSnowHeader{
+    display: flex;
+    align-items: center;
+    padding: 15px 60px 0 60px;
+    justify-content: space-between;
+}
+
+.djSnowHeader h2{
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.djSnowHeader h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dj_text{
+    color: rgb(33, 241, 189);
+}
+
+.header_text{
+    width: 600px;
+}
+
+.contact_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(33, 241, 189);
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+}
+
+.contact_header p{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contact_header div {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 80%;
+}
+
+.dj_snow{
+    height: 470px;
+    width: 450px;
+}

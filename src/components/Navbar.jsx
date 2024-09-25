@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './style/style.module.css'
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import DjSnowHeader from './DjSnowHeader';
+
 
 
 
@@ -28,8 +30,10 @@ export default function Navbar() {
                     <FaFacebookF size={20}/>
                     <FaTwitter size={20}/>
                     <FaInstagram size={20}/>
+                    <IoMdMail />
                 </ul>
             </div>
+            <DjSnowHeader />
         </div>
     </div>
   )
